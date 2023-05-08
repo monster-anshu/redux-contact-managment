@@ -29,7 +29,7 @@ const Contact: FC<IContactProps> = ({ contacts }) => {
         {contacts.map(item => (
           <div
             key={item.id}
-            className="p-4 grid flex-grow gap-4 grid-rows-[1fr_auto] text-center  rounded shadow-md bg-slate-300 "
+            className="p-4 grid max-w-sm flex-grow gap-4 grid-rows-[1fr_auto] text-center  rounded shadow-md bg-slate-300 "
           >
             <div>
               <p className="text-2xl font-medium">

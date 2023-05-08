@@ -45,6 +45,24 @@ Start the server
 - Data visualization
 - React Query
 
+## API Reference
+
+#### Get country wise data for covid
+
+```http
+  GET https://disease.sh/v3/covid-19/countries
+```
+
+#### Get covide data by date
+
+```http
+  GET https://disease.sh/v3/covid-19/historical/all?lastdays=all
+```
+
+## Deployment
+
+[View Deployment](https://redux-contact-managment.vercel.app)
+
 ## Authors
 
 - [@Himanshu Gunwant](https://www.github.com/monster-anshu)
